@@ -3,7 +3,7 @@
 This project predicts whether a loan will default based on borrower and loan features using machine learning classifiers. A beautiful interactive dashboard is built with **Streamlit** and model interpretability is powered by **SHAP**.
 
 ## 🔧 Technologies
-- Python
+- Python>=3.10
 - Streamlit
 - XGBoost, LightGBM, CatBoost
 - SHAP for explainability

@@ -18,5 +18,3 @@ streamlit>=1.12.0
 # SHAP for model explanation
 shap>=0.41.0
 
-# Other
-warnings-filter

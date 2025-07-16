@@ -77,7 +77,7 @@ with st.expander("🔍 See SHAP Explanation"):
     explainer = shap.Explainer(final_model.named_steps['classifier'])
     X_transformed = final_model.named_steps['preprocessor'].transform(X_test)
     shap_values = explainer(X_transformed[index:index+1])
-    st.set_option('deprecation.showPyplotGlobalUse', False)
+    #st.set_option('deprecation.showPyplotGlobalUse', False)
     shap.plots.waterfall(shap_values[0], max_display=10)
     st.pyplot(bbox_inches='tight')
 
